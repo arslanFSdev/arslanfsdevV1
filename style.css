@@ -1,0 +1,15 @@
+/* Global Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Device Font Size 10px = 62.5% | Default 16px*/
+html {
+  font-size: 62.5%;
+}
+/* Global Variables */
+:root {
+}
