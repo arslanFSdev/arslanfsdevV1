@@ -11,13 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header padding-r-l">
       <nav class="container">
-        <ul class="nav-links">
+        <ul class="nav-links flex">
           <li>
-            <a class="main-nav-links" href="#">Home</a>
+            <a class="main-nav-links" href="#home">Home</a>
           </li>
           <li>
             <a class="main-nav-links" href="#">About</a>
@@ -34,5 +38,43 @@
         </ul>
       </nav>
     </header>
+    <section class="hero padding-hero" id="home">
+      <div class="container">
+        <div class="grid grid--2-cols">
+          <div class="left-hero--text-box">
+            <h1 class="author-intro">
+              Hi, <br />
+              I'm <span class="color-teal">Arslan</span><br />
+            </h1>
+            <div class="typewriter-effect">
+              <h1 class="author-intro">A web developer</h1>
+            </div>
+            <button class="button hero-btn">Contact</button>
+          </div>
+          <div class="right-hero--img-box">
+            <img
+              class="hero-img"
+              src="/images/IMG-20220409-WA0045jpg.0.jpg"
+              alt="Laptop on a table text editor open and coffee mug on the side"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="social-links flex container">
+        <span
+          ><a href="https://www.linkedin.com/in/arslan-wani-25917b249/">
+            <ion-icon class="social-link" name="logo-linkedin"></ion-icon></a
+        ></span>
+        <span
+          ><a href="https://github.com/arslanFSdev">
+            <ion-icon class="social-link" name="logo-github"></ion-icon></a
+        ></span>
+        <span
+          ><a href="https://twitter.com/arslanicode247"
+            ><ion-icon class="social-link" name="logo-twitter"></ion-icon
+          ></a>
+        </span>
+      </div>
+    </section>
   </body>
 </html>
