@@ -238,6 +238,8 @@ main {
 .about-sec--img {
   max-width: 100%;
   border-radius: 0.8rem;
+  filter: contrast(6%);
+  filter: grayscale(0.7);
 }
 .section-heading {
   width: fit-content;
@@ -307,7 +309,7 @@ main {
 /* Skills Section Hover / Animation States */
 
 .skill-box {
-  animation: slideInTop 10s infinite;
+  animation: slideInTop 5s infinite;
 }
 .skill-info:hover {
   transform: scale(1.1);
