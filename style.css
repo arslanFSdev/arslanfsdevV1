@@ -125,6 +125,7 @@ main {
 }
 /* Header */
 .menu-icon {
+  display: none;
   color: var(--clr-greywhite);
   font-size: 5rem;
 }
@@ -649,6 +650,9 @@ main {
   }
 }
 @media only screen and (max-width: 36rem) {
+  .menu-icon {
+    display: inline-block;
+  }
   .nav-links {
     display: none;
   }
