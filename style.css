@@ -430,6 +430,7 @@ main {
   padding: 1.8rem 2rem;
 }
 .textarea {
+  resize: none;
   width: 100%;
   min-height: 20rem;
   border: 1px solid var(--clr-greywhite);
