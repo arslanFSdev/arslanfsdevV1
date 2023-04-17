@@ -18,7 +18,10 @@
   </head>
   <body>
     <header class="main-header padding-r-l">
-      <nav class="container">
+      <nav class="container center-menu">
+        <a href="#"
+          ><ion-icon class="menu-icon" name="menu-outline"></ion-icon
+        ></a>
         <ul class="nav-links flex">
           <li>
             <a class="main-nav-links" href="#home">Home</a>
@@ -40,7 +43,7 @@
     </header>
     <section class="hero padding-hero" id="home">
       <div class="container">
-        <div class="grid grid--2-cols">
+        <div class="grid grid--2-cols gap--hero">
           <div class="left-hero--text-box">
             <h1 class="author-intro">
               Hi, <br />
@@ -325,7 +328,7 @@
               placeholder="Email"
               required
             />
-            <textarea class="textarea"></textarea>
+            <textarea class="textarea" disabled></textarea>
             <button class="button form-submit transition" type="submit">
               Send
             </button>
